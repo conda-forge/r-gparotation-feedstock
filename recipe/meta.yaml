@@ -1,4 +1,4 @@
-{% set version = "2022.4-1" %}
+{% set version = "2022.10-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GPArotation_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GPArotation/GPArotation_{{ version }}.tar.gz
-  sha256: 231e7edcdcc091fbecfb4f2e88d1a4344967cf7ea58074b385a4b8b48d9da224
+  sha256: 04f72d8f3a9c204df5df904be563ec272a8437a707daee8823b2a690dde21917
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

@@ -1,11 +1,11 @@
-About r-gparotation
-===================
+About r-gparotation-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gparotation-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.stat.ucla.edu/research/gpa
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gparotation-feedstock/blob/main/LICENSE.txt)
 
 Summary: Gradient Projection Algorithm Rotation for Factor Analysis. See ?GPArotation.Intro for more details.
 

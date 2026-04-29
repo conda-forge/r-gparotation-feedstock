@@ -1,4 +1,4 @@
-{% set version = "2025.3-1" %}
+{% set version = "2026.4-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GPArotation_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GPArotation/GPArotation_{{ version }}.tar.gz
-  sha256: bf2bd7ee40069abd343e1ab3598a7dcf6ef01d051271a5687569524a0123828b
+  sha256: 7a25e68a2cd05cae6a1379b01ec00c3dc668eaf40e350ff64676e61b075be8b3
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

@@ -3,11 +3,11 @@ About r-gparotation-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gparotation-feedstock/blob/main/LICENSE.txt)
 
-Home: http://www.stat.ucla.edu/research/gpa
+Home: https://cran.r-project.org/package=GPArotation
 
 Package license: GPL-2.0-or-later
 
-Summary: Gradient Projection Algorithm Rotation for Factor Analysis. See ?GPArotation.Intro for more details.
+Summary: Gradient projection algorithms for orthogonal and oblique rotation of factor loadings matrices in factor analysis. Implements a comprehensive set of rotation criteria including quartimax, quartimin, oblimin, geomin, simplimax, the Crawford-Ferguson family, and target rotation, among others. Supports multiple random starts. For details see Bernaards and Jennrich (2005) <doi:10.1177/0013164404272507>.
 
 Current build status
 ====================
